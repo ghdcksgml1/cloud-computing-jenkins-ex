@@ -12,6 +12,6 @@ import java.util.zip.InflaterInputStream
 class HackingSpringBootCh2ReactiveApplication
 
 fun main(args: Array<String>) {
-	BlockHound.builder().with(CoroutineBlockHoundIntegration()).install()
+//	BlockHound.builder().with(CoroutineBlockHoundIntegration()).install()
 	runApplication<HackingSpringBootCh2ReactiveApplication>(*args)
 }
